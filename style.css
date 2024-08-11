@@ -14,6 +14,46 @@ body {
     overflow: auto; /* Menyembunyikan overflow agar partikel tidak terlihat di luar halaman */
 }
 
+#particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 80px;
+    background-color: #ffb742;
+    height: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    padding-left: 75%;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-right: 25px;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li:hover a {
+    color: #ffb742;
+}
+
 .main {
     height: 640px;
     display: flex;
