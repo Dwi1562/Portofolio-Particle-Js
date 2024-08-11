@@ -272,6 +272,54 @@ footer .cols .links-col a:hover {
     color: #ffb742;
 }
 
+.portfolio-section {
+    padding: 50px 100px;
+    color: #fff;
+    text-align: center;
+}
+
+.portfolio-section h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    background-color: #292b2e;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: calc(33% - 40px);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.portfolio-item h3 {
+    font-size: 24px;
+    color: #ffb742;
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+
 @media screen and (max-width: 1100px) {
     .guarantee {
         flex-wrap: wrap;
