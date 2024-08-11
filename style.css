@@ -223,3 +223,51 @@ body {
     font-size: 34px;
     color: #fff;
 }
+
+footer {
+    position: relative;
+    background: #1c1c1c;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+
+footer .cols {
+    display: flex;
+    align-items: start;
+}
+
+footer .cols .about-col {
+    flex: 3;
+}
+
+footer .cols .about-col h3 {
+    color: #ffb742;
+    margin-bottom: 20px;
+}
+
+footer .cols .about-col p {
+    color: #ccc;
+    font-size: 13px;
+}
+
+footer .cols .links-col {
+    flex: 3;
+}
+
+footer .cols .links-col h4 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+footer .cols .links-col a {
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+
+footer .cols .links-col a:hover {
+    color: #ffb742;
+}
