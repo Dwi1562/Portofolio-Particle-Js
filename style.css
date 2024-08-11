@@ -85,3 +85,38 @@ body {
     color: #ccc;
     margin-top: 20px;
 }
+
+.about {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+    padding: 0 50px;
+    margin-left: 100px;
+}
+
+.about img {
+    width: 280px;
+}
+
+.about .info h3 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about .info p {
+    color: #ccc;
+    font-size: 18px;
+    max-width: 600px;
+}
+
+.guarantee {
+    margin-top: 50px;
+    padding: 0 50px;
+    max-width: 40%;
+    flex-wrap: nowrap;
+    gap: 24px;
+}
+
