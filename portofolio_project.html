@@ -24,15 +24,6 @@
         <h2>My Portfolio Projects</h2>
 
         <div class="portfolio-grid">
-            <div class="portfolio-item">
-                <img src="img/flying bird.png" alt="Project 1" href="https://github.com/Dwi1562/Flying-Bird">
-                <h3>Flying Bird</h3>
-            </div>
-
-            <div class="portfolio-item">
-                <img src="img/starbhak mart web.png" alt="Project 2" href="https://github.com/Dwi1562/Starbhak-Mart-Web-">
-                <h3>Starbhak Mart</h3>
-            </div>
 
         </div>
     </div>
@@ -64,6 +55,46 @@
 
     <script src="particles.js"></script>
     <script src="app.js"></script>
+    <script>
+        const projects = [{
+                title: "Flying Bird",
+                image: "img/flying bird.png",
+                githubUrl: "https://github.com/Dwi1562/Flying-Bird"
+            },
+            {
+                title: "ReadWise",
+                image: "img/mockup readwise.png",
+                githubUrl: "https://github.com/NaufalParamaRafif/ReadWise-Mobile"
+            },
+            {
+                title: "Starbhak Mart",
+                image: "img/starbhak mart web.png",
+                githubUrl: "https://github.com/Dwi1562/Starbhak-Mart-Web-"
+            },
+            {
+                title: "WorkFlex",
+                image: "img/mockup workflex.png",
+                githubUrl: "https://github.com/NaufalParamaRafif/WorkFlex"
+            },
+        ];
+
+        const portfolioGrid = document.querySelector('.portfolio-grid');
+
+        projects.forEach((project) => {
+            const projectItem = document.createElement('div');
+            projectItem.className = 'portfolio-item';
+            projectItem.innerHTML = `
+                <a href="${project.githubUrl}" target="_blank">
+                    <img src="${project.image}" alt="${project.title}">
+                    <h3>${project.title}</h3>
+                    <p>${project.description}</p>
+                </a>
+            `;
+            portfolioGrid.appendChild(projectItem);
+        });
+    </script>
+
+
 </body>
 
 </html>

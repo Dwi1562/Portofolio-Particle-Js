@@ -40,7 +40,7 @@
                 <div class="icon">
                     <i class='bx bx-check-circle'></i>
                 </div>
-                <div class="info">
+                <div class="infoo">
                     <h3>0</h3>
                     <p>Project Selesai</p>
                 </div>
@@ -48,7 +48,7 @@
             </div>
         </a>
     </div>
-    
+
     <br>
 
     <div class="skills" id="skil">
@@ -115,4 +115,37 @@
 
     <script src="particles.js"></script>
     <script src="app.js"></script>
+    <script>
+        const projects = [
+        {
+                title: "Flying Bird",
+                description: "Deskripsi singkat tentang project 1.",
+                image: "img/flying bird.png",
+                githubUrl: "https://github.com/Dwi1562/Flying-Bird"
+            },
+            {
+                title: "ReadWise",
+                description: "Deskripsi singkat tentang project 2.",
+                image: "img/mockup readwise.png",
+                githubUrl: "https://github.com/NaufalParamaRafif/ReadWise-Mobile"
+            },
+            {
+                title: "Starbhak Mart",
+                description: "Deskripsi singkat tentang project 2.",
+                image: "img/starbhak mart web.png",
+                githubUrl: "https://github.com/Dwi1562/Starbhak-Mart-Web-"
+            },
+            {
+                title: "WorkFlex",
+                description: "Deskripsi singkat tentang project 2.",
+                image: "img/mockup workflex.png",
+                githubUrl: "https://github.com/NaufalParamaRafif/WorkFlex"
+            },
+
+        ];
+
+        const projectCountElement = document.querySelector('.infoo h3');
+        projectCountElement.textContent = projects.length;
+    </script>
+
 </body>

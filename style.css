@@ -157,12 +157,12 @@ body {
     font-size: 30px;
 }
 
-.guarantee .item .info h3 {
+.guarantee .item .infoo h3 {
     color: #ffb742;
     font-size: 28px;
 }
 
-.guarantee .item .info p {
+.guarantee .item .infoo p {
     color: #fff;
     font-size: 15px;
     font-weight: 600;
@@ -445,11 +445,11 @@ footer .cols .links-col a:hover {
         font-size: 18px;
     }
 
-    .guarantee .item .info h3 {
+    .guarantee .item .infoo h3 {
         font-size: 20px;
     }
 
-    .guarantee .item .info p {
+    .guarantee .item .infoo p {
         font-size: 12px;
     }
 }
